@@ -1,1 +1,1 @@
-pub struct ExitCode(pub u32);
+pub struct ExitCode(pub i32);
