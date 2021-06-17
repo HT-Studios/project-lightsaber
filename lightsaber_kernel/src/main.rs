@@ -42,8 +42,8 @@ earliest stages.
 Operating System Information
 ================================
 Kernel Version: 1.0
-OS Build: 43.0
-Git Commit Hash: 4ae0b1508f6fb594b25383ddb832d3927cca25ac
+OS Build: 44.0
+Git Commit Hash: b0d35500ed438c0ae10fb36c7a3157728898b461
 ";
 
 #[global_allocator]
