@@ -1,0 +1,27 @@
+[package]
+name = "lightsaber_bootloader"
+version = "0.0.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.lightsaber_graphics]
+path = "../lightsaber_graphics"
+
+[dependencies.log]
+version = "0.4.14"
+
+[dependencies.rlibc]
+version = "1.0.0"
+
+[dependencies.spin]
+version = "0.9.0"
+
+[dependencies.uefi]
+version = "0.10.0"
+
+[dependencies.xmas-elf]
+version = "0.7.0"
+
+[dependencies.x86_64]
+version = "0.14.3"

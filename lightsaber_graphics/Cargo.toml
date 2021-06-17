@@ -1,0 +1,12 @@
+[package]
+name = "lightsaber_graphics"
+version = "0.0.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.bit_field]
+version = "0.10.1"
+
+[dependencies.lightsaber_util]
+path = "../lightsaber_util"
