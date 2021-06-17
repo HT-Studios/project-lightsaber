@@ -13,11 +13,11 @@ This project is organized by separating code in their corresponding crates. Ther
 
 | <div align="center">Crate</div> | <div align="center">Usage</div>                                                           |
 | ------------------------------- | ----------------------------------------------------------------------------------------- |
-| [`lightsaber_bootloader`](https://github.com/HT-Studios/project-lightsaber)         | The UEFI bootloader for the operating system.                                             |
-| [`lightsaber_buildsystem`]        | The build system utility for easy building of the operating system.                       |
-| [`lightsaber_graphics`]           | Provides various graphical APIs for the operating system.                                 |
-| [`lightsaber_kernel`]             | The actual kernel of the operating system.                                                |
-| [`lightsaber_util`]               | Some useful utilities for use in the entire ecosystem of crates for the operating system. |
+| [`lightsaber_bootloader`](https://github.com/HT-Studios/project-lightsaber/tree/main/lightsaber_bootloader)         | The UEFI bootloader for the operating system.                                             |
+| [`lightsaber_buildsystem`](https://github.com/HT-Studios/project-lightsaber/tree/main/lightsaber_buildsystem)        | The build system utility for easy building of the operating system.                       |
+| [`lightsaber_graphics`](https://github.com/HT-Studios/project-lightsaber/tree/main/lightsaber_graphics)          | Provides various graphical APIs for the operating system.                                 |
+| [`lightsaber_kernel`](https://github.com/HT-Studios/project-lightsaber/tree/main/lightsaber_kernel)             | The actual kernel of the operating system.                                                |
+| [`lightsaber_util`](https://github.com/HT-Studios/project-lightsaber/tree/main/lightsaber_util)               | Some useful utilities for use in the entire ecosystem of crates for the operating system. |
 
 ## Building 
 
