@@ -43,7 +43,7 @@ Operating System Information
 ================================
 Kernel Version: 1.0
 OS Build: 45.0
-Git Commit Hash: a4219039355829e694e11c4fbd97fc05b94391f9
+Git Commit Hash: 2f865c8d78962188607a0adeeb926e0d6a70a5e4
 ";
 
 #[global_allocator]
