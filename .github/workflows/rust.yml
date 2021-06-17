@@ -25,7 +25,7 @@ jobs:
       run: 
          cargo build --package lightsaber_buildsystem --bins --release
     - name: Move Buildsystem Binary to Current Working Directory
-      run: mv ./target/release/lightbuild . | ls
+      run: mv ./target/release/lightbuild . |
     - uses: actions/checkout@v2
     - name: Build
       run: echo 1 | ./lightbuild
