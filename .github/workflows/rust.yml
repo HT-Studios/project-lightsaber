@@ -20,7 +20,7 @@ jobs:
           toolchain: nightly
           override: true
           profile: default
-    - uses: actions/checkout@v2
+    - uses: actions-rs/checkout@v2
     - name: Build the Buildsystem
       run: 
          cargo build --package lightsaber_buildsystem --bins --release
