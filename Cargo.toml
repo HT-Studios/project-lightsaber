@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "lightsaber_bootloader",
+    "lightsaber_buildsystem",
+    "lightsaber_kernel",
+    "lightsaber_graphics",
+    "lightsaber_util"
+]
+
+[profile.dev]
+opt-level = 0
+panic = "abort"
+
+[profile.release]
+opt-level = "z"
+panic = "abort"
