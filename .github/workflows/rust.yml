@@ -23,6 +23,7 @@ jobs:
           toolchain: nightly
           override: true
           profile: default
+          components: rust-src
     - name: Build the Buildsystem
       run: 
          cargo build --package lightsaber_buildsystem --bins --release
