@@ -1,6 +1,6 @@
 # Kernel Version 1.0 - OS Build 45.0
 
-Git Commit: [`a42190393`](https://github.com/HT-Studios/project-lightsaber/commit/a4219039355829e694e11c4fbd97fc05b94391f9)
+Git Commit: [`2f865c8d7`](https://github.com/HT-Studios/project-lightsaber/commit/2f865c8d78962188607a0adeeb926e0d6a70a5e4)
 
 ## Additions
 
