@@ -28,7 +28,7 @@ jobs:
       run: 
          cargo build --package lightsaber_buildsystem --bins --release
     - name: Copy Buildsystem Binary to Current Working Directory
-      run: cp ./target/release/lightbuild ./lightbuild | ls ./target/release
+      run: cp ./target/release/lightbuild lightbuild
     - uses: actions/checkout@v2
     - name: Build
-      run: echo 1 | ./lightbuild
+      run: echo 1 | lightbuild
