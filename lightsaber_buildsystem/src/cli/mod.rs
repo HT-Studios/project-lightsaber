@@ -190,7 +190,7 @@ pub fn build(mut options: BuildOptions) -> anyhow::Result<utils::ExitCode> {
         .arg("--package")
         .arg("lightsaber_kernel")
         .arg("--target")
-        .arg(&format!(".\\{}.json", target_triple.0))
+        .arg(&format!("./{}.json", target_triple.0))
         .arg("-Z")
         .arg("build-std=core,alloc");
 
