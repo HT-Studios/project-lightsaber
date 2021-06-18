@@ -16,9 +16,12 @@ use core::arch::x86_64::{
     _mm_xor_si128
 };
 
-use crate::libcore_ext::str::validations::helpers::UTF8ValidationAlgorithm;
+use crate::libcore_ext::str::validations::helpers::{
+    self,
+    UTF8ValidationAlgorithm
+};
 
-type SIMDU8Value = super::helpers::SIMDU8Value<__m128i>;
+type SIMDU8Value = helpers::SIMDU8Value<__m128i>;
 
 impl SIMDU8Value {
     #[inline]
@@ -40,7 +43,7 @@ impl SIMDU8Value {
             values[28] as i8,
             values[29] as i8,
             values[30] as i8,
-            values[31] as i8,
+            values[31] as i8
         ))
     }
 
@@ -63,7 +66,7 @@ impl SIMDU8Value {
             values[12] as i8,
             values[13] as i8,
             values[14] as i8,
-            values[15] as i8,
+            values[15] as i8
         ))
     }
 
